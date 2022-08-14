@@ -1,0 +1,60 @@
+.papel_de_parede{
+    background-image: url(../imagens/2825704.gif);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 25% 1fr 25%;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+}
+
+.login{
+    text-align: center;
+    grid-column: 2;
+    grid-row: 2;
+    box-shadow: 0px 0px 5px 5px rgb(37, 37, 97);
+    border-radius: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+
+.form-floating{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.logado{
+    position: relative;
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    box-shadow: 0px 0px 5px 5px rgb(37, 37, 97);
+    border-radius: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.tituloLogado{
+    position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+    color: white;
+}
+
+.btn_sair{
+    position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+}
+
+.nomeFormulario{
+    margin-left: 15%;
+}
